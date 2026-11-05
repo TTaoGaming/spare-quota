@@ -21,7 +21,7 @@ That is the whole setup. The skill explains itself, asks 5 short questions, then
 ## What we tested, and where
 Seven small cases, scored by a script that only looks at files, so an agent saying "done" counts for nothing: normal two-task run, over the stop line, stale quota number, spent budget, a check that can never pass, a bug fix where the test file must stay untouched, and the tutorial.
 - **Claude Code 2.1.318 (Linux):** all 7 pass on the final skill, and the impossible-check case 3 of 3. The main case passed 5 of 5 earlier, and 3 of 3 with the independent checker on.
-- **Codex CLI 0.165.0 (Windows):** all 7 pass on an earlier version of the skill, and the main case passed 2 of 2 with the independent checker on, with the tutorial and stop-line cases also passing on a near-final version. The run on the exact final version was still going when this was written; see [EVIDENCE.md](EVIDENCE.md).
+- **Codex CLI 0.165.0 (Windows):** all 7 pass on an earlier version of the skill, and the main case passed 2 of 2 with the independent checker on, with the tutorial and stop-line cases also passing on a near-final version. On the exact final version, four cases were run once each (main case with the checker on, impossible check, no-cheating, tutorial) and all passed; the other three cases were not rerun on it. Details in [EVIDENCE.md](EVIDENCE.md).
 - Run details and the one real bug we found and fixed are in [EVIDENCE.md](EVIDENCE.md).
 
 ## Weak points (read these)

@@ -22,7 +22,7 @@ Skill versions are identified by the first 8 characters of the SHA-256 of `spare
 | f6615328 | all 7 | C2 to C7 pass. C1: the agent completed both tasks with two real helper agents and ran the checks itself, but our test script rejected the file because Windows PowerShell saved it with a byte-order mark. We fixed the test script and rescored C1 as pass |
 | 52f14beb | all 7 | 7/7 |
 | 1a4bbc06 | C1 with the checker on (2 runs), C7, C2 | all pass |
-| 0a28377d (final) | in progress when this was written (C1 with the checker on, C5, C6, C7); results to be added | |
+| 0a28377d (final) | C1 with the checker on, C5, C6, C7 | 4/4 pass (one run each). C2, C3, C4 were not rerun on this exact version; they passed on the earlier version and that part of the skill did not change. |
 
 ## What we fixed because of testing
 - The skill's main case flaked until helpers were given the exact check and file names.
