@@ -31,3 +31,6 @@ Skill versions are identified by the first 8 characters of the SHA-256 of `spare
 
 ## Not tested
 Scheduled runs, more than two helpers, long unattended runs, Gemini and other tools, a different-family checker, and any A/B comparison against managing quota by hand.
+
+
+Scheduling terms unverified: running a subscription unattended through its CLI on a schedule has not been checked against each vendor's terms of use.

@@ -32,5 +32,6 @@ Seven small cases, scored by a script that only looks at files, so an agent sayi
 - The adapt-to-your-backlog mode was tried once on a small project (Claude Code only).
 - No A/B test yet that this beats you managing quota by hand. Whether unused quota expires at your reset is unknown: check your plan.
 - Scheduled runs (loop, Desktop task, cron), many helpers at once and long unattended runs are not tested. Samples are small.
+- **Scheduling terms unverified.** Running your subscription unattended through its command-line tool on a schedule (Codex under cron or Task Scheduler, Claude Code /loop, a Desktop scheduled task) has not been checked against each vendor's terms of use. Check your plan's terms before you automate it.
 
 Found a problem? Tell us what broke.
